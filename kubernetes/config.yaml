@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: querypie-env
+  namespace: querypie
+data:
+  NODE_ENV: 'development'
+  APP_ENV: 'alpha'
+  STUDIO_URL: 'http://querypie-api-service'
+  DB_TYPE: 'mysql'
+  DB_PORT: '3306'
+  DB_HOST: '{{DB_HOST}}'
+  DB_USERNAME: '{{DB_USERNAME}}'
+  DB_PASSWORD: '{{DB_PASSWORD}}'
+  DB_DATABASE: '{{DB_DATABASE}}'
+  TZ: 'GMT'
+  DB_JDBC_URL: 'jdbc:mysql://{{DB_HOST}}:3306/{{DB_DATABASE}}?useSSL=false&autoReconnect=true&validationQuery=select 1&useUnicode=true&characterEncoding=UTF-8'
+  DB_DRIVER_CLASS: 'com.mysql.cj.jdbc.Driver'
+  DB_MAX_CONNECTION_SIZE: '20'

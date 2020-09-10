@@ -4,8 +4,8 @@ metadata:
   name: querypie-env
   namespace: querypie
 data:
-  NODE_ENV: 'development'
-  APP_ENV: 'alpha'
+  NODE_ENV: 'production'
+  APP_ENV: 'onpremise'
   STUDIO_URL: 'http://querypie-api-service'
   DB_TYPE: 'mysql'
   DB_PORT: '{{DB_PORT}}}'

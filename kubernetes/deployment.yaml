@@ -104,7 +104,10 @@ spec:
             - name: DB_TYPE
               value: mysql
             - name: DB_PORT
-              value: "3306"
+              valueFrom:
+                configMapKeyRef:
+                  name: querypie-env
+                  key: DB_PORT
             - name: DB_HOST
               valueFrom:
                 configMapKeyRef:

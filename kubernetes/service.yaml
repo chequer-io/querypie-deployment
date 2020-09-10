@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: querypie-app-service
+  namespace: querypie
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 3000
+      protocol: TCP
+      name: http
+  selector:
+    app: querypie-app
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: querypie-api-service
+  namespace: querypie
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+      name: http
+  selector:
+    app: querypie-api

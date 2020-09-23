@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  querypie:
+    - apiVersion: v2
+      appVersion: 7.0.0
+      created: "2020-09-23T09:16:14.560039+09:00"
+      description: A Helm chart for QueryPie
+      digest: 387a6e00d2802d2c86f2ba1e20758b031223955d0e1f81d43a41328756df052d
+      name: querypie
+      type: application
+      urls:
+        - https://chequer-io.github.io/querypie-deployment/helm-chart/querypie-0.1.1.tgz
+      version: 0.1.1
+generated: "2020-09-23T09:16:14.558932+09:00"

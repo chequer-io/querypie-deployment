@@ -1,0 +1,25 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "Authentication": {
+    "Bucket": "${dockerpie-auth}",
+    "Key": "${.dockercfg}"
+  },
+  "ContainerDefinitions": [
+    {
+      "Essential": true,
+      "Image": {
+        "Name": "dockerpie.querypie.com/chequer.io/querypie-api:7.7.0",
+        "Update": true
+      },
+      "Name": "querypie-api",
+      "PortMappings": [
+        {
+          "ContainerPort": 80,
+          "HostPort": 80
+        }
+      ]
+    }
+  ],
+  "Family": "",
+  "Volumes": []
+}

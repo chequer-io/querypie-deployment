@@ -1,0 +1,106 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "Authentication": {
+    "Bucket": "${dockerpie-auth}",
+    "Key": "${.dockercfg}"
+  },
+  "ContainerDefinitions": [
+    {
+      "environment": [
+        {
+          "name": "PORT",
+          "value": "3000"
+        },
+        {
+          "name": "NODE_ENV",
+          "value": "production"
+        },
+        {
+          "name": "APP_ENV",
+          "value": "master"
+        },
+        {
+          "name": "REDIS_HOST",
+          "value": "redis-server"
+        },
+        {
+          "name": "REDIS_PORT",
+          "value": "6379"
+        },
+        {
+          "name": "REDIS_PASSWORD",
+          "value": "PASSWORD"
+        },
+        {
+          "name": "REDIS_EVENTKEY",
+          "value": "master"
+        },
+        {
+          "name": "REDIS_DB",
+          "value": "0"
+        }
+      ],
+      "Essential": true,
+      "Image": {
+        "Name": "dockerpie.querypie.com/chequer.io/querypie-app:7.7.0",
+        "Update": true
+      },
+      "Name": "querypie-app",
+      "PortMappings": [
+        {
+          "ContainerPort": 3000,
+          "HostPort": 3000
+        }
+      ]
+    },
+    {
+      "Command": [
+        "/opt/bitnami/scripts/redis/run.sh",
+        "--maxmemory",
+        "1024mb"
+      ],
+      "environment": [
+        {
+          "name": "ALLOW_EMPTY_PASSWORD",
+          "value": "no"
+        },
+        {
+          "name": "REDIS_DISABLE_COMMANDS",
+          "value": "FLUSHDB,FLUSHALL"
+        },
+        {
+          "name": "REDIS_PASSWORD",
+          "value": "PASSWORD"
+        },
+        {
+          "name": "REDIS_AOF_ENABLED",
+          "value": "no"
+        }
+      ],
+      "Essential": true,
+      "Image": "docker.io/bitnami/redis:6.0-debian-10",
+      "MountPoints": [
+        {
+          "ContainerPath": "/redis/data",
+          "SourceVolume": "Redis_Data"
+        }
+      ],
+      "Name": "redis-server",
+      "PortMappings": [
+        {
+          "ContainerPort": 6379,
+          "HostPort": 6379
+        }
+      ]
+    }
+  ],
+  "Family": "",
+  "Volumes": [
+    {
+      "Host": {
+        "SourcePath": "redis_data"
+      },
+      "Name": "Redis_Data"
+    }
+  ]
+}

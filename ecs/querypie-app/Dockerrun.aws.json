@@ -1,10 +1,10 @@
 {
   "AWSEBDockerrunVersion": 2,
-  "Authentication": {
-    "Bucket": "${dockerpie-auth}",
-    "Key": "${.dockercfg}"
+  "authentication": {
+    "bucket": "${dockerpie-auth}",
+    "key": "${.dockercfg}"
   },
-  "ContainerDefinitions": [
+  "containerDefinitions": [
     {
       "environment": [
         {
@@ -40,21 +40,21 @@
           "value": "0"
         }
       ],
-      "Essential": true,
-      "Image": {
-        "Name": "dockerpie.querypie.com/chequer.io/querypie-app:7.7.0",
-        "Update": true
+      "essential": true,
+      "image": {
+        "name": "dockerpie.querypie.com/chequer.io/querypie-app:7.7.0",
+        "update": true
       },
-      "Name": "querypie-app",
-      "PortMappings": [
+      "name": "querypie-app",
+      "portMappings": [
         {
-          "ContainerPort": 3000,
-          "HostPort": 3000
+          "containerPort": 3000,
+          "hostPort": 3000
         }
       ]
     },
     {
-      "Command": [
+      "command": [
         "/opt/bitnami/scripts/redis/run.sh",
         "--maxmemory",
         "1024mb"
@@ -77,30 +77,30 @@
           "value": "no"
         }
       ],
-      "Essential": true,
-      "Image": "docker.io/bitnami/redis:6.0-debian-10",
-      "MountPoints": [
+      "essential": true,
+      "image": "docker.io/bitnami/redis:6.0-debian-10",
+      "mountPoints": [
         {
-          "ContainerPath": "/redis/data",
-          "SourceVolume": "Redis_Data"
+          "containerPath": "/redis/data",
+          "sourceVolume": "Redis_Data"
         }
       ],
-      "Name": "redis-server",
-      "PortMappings": [
+      "name": "redis-server",
+      "portMappings": [
         {
-          "ContainerPort": 6379,
-          "HostPort": 6379
+          "containerPort": 6379,
+          "hostPort": 6379
         }
       ]
     }
   ],
-  "Family": "",
-  "Volumes": [
+  "family": "",
+  "volumes": [
     {
-      "Host": {
-        "SourcePath": "redis_data"
+      "host": {
+        "sourcePath": "redis_data"
       },
-      "Name": "Redis_Data"
+      "name": "Redis_Data"
     }
   ]
 }

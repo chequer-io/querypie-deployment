@@ -41,10 +41,8 @@
         }
       ],
       "essential": true,
-      "image": {
-        "name": "dockerpie.querypie.com/chequer.io/querypie-app:7.7.0",
-        "update": true
-      },
+      "image": "dockerpie.querypie.com/chequer.io/querypie-app:7.7.1",
+      "memory": 6144,
       "name": "querypie-app",
       "portMappings": [
         {
@@ -78,7 +76,8 @@
         }
       ],
       "essential": true,
-      "image": "docker.io/bitnami/redis:6.0-debian-10",
+      "image": "dockerpie.querypie.com/bitnami/redis:6.0-debian-10",
+      "memory": 1537,
       "mountPoints": [
         {
           "containerPath": "/redis/data",
@@ -94,7 +93,6 @@
       ]
     }
   ],
-  "family": "",
   "volumes": [
     {
       "host": {

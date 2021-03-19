@@ -3,9 +3,9 @@ entries:
   querypie:
   - apiVersion: v2
     appVersion: 8.2.1
-    created: "2021-03-19T10:06:55.552690476+09:00"
+    created: "2021-03-19T15:03:00.789898192+09:00"
     description: A Helm chart for QueryPie
-    digest: de5e8a1d13b7d55f121b0a28cdaef215838061bf9cfe3035a0632db580e9920b
+    digest: 35503dd5cfcabaf859b17e77be23b030ec448609ba435d15fbb0cfee5f990cd8
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
     name: querypie
     type: application
@@ -14,7 +14,7 @@ entries:
     version: 0.1.24
   - apiVersion: v2
     appVersion: 8.1.5
-    created: "2021-03-19T10:06:55.552293632+09:00"
+    created: "2021-03-19T15:03:00.789331122+09:00"
     description: A Helm chart for QueryPie
     digest: 544c4a5f8828a9a7b22d3e6aae6a4e693af67b8076a5593208c5603715e4221b
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -25,7 +25,7 @@ entries:
     version: 0.1.23
   - apiVersion: v2
     appVersion: 8.0.2
-    created: "2021-03-19T10:06:55.551983555+09:00"
+    created: "2021-03-19T15:03:00.788857821+09:00"
     description: A Helm chart for QueryPie
     digest: 4bbf86ddfb05c11556b2ae89e4c2fddc24d365c0efa8876ef18128848c684dbb
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -36,7 +36,7 @@ entries:
     version: 0.1.22
   - apiVersion: v2
     appVersion: 7.7.3
-    created: "2021-03-19T10:06:55.55165969+09:00"
+    created: "2021-03-19T15:03:00.788417018+09:00"
     description: A Helm chart for QueryPie
     digest: f163da7b702b97afd4330c54af4bde545a650738d49e1373585ef4a192a7fe1a
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -47,7 +47,7 @@ entries:
     version: 0.1.21
   - apiVersion: v2
     appVersion: 7.7.3
-    created: "2021-03-19T10:06:55.550445011+09:00"
+    created: "2021-03-19T15:03:00.787967305+09:00"
     description: A Helm chart for QueryPie
     digest: f9c3e9cf048dc1fb8415639507a0727c18e1d1b31114e0188edca9b225f96efd
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -58,9 +58,9 @@ entries:
     version: 0.1.20
   - apiVersion: v2
     appVersion: 7.6.1
-    created: "2021-03-19T10:06:55.549875902+09:00"
+    created: "2021-03-19T15:03:00.787189883+09:00"
     description: A Helm chart for QueryPie
-    digest: 4960f74b666473c7c0425a0f039eb261c68f3d7c1faaa3354c9c4b9af408bac6
+    digest: 38d695818b56b9fe1f5a02fbfa6d22b40eb80d746d4ddb6c8ccb69ef1436e7ae
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
     name: querypie
     type: application
@@ -69,7 +69,7 @@ entries:
     version: 0.1.19
   - apiVersion: v2
     appVersion: 7.6.1
-    created: "2021-03-19T10:06:55.549578659+09:00"
+    created: "2021-03-19T15:03:00.786768685+09:00"
     description: A Helm chart for QueryPie
     digest: cf69ae4e01778047ca3c7b046e7798247cfc331947bd191a656cec6c658247d3
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -80,7 +80,7 @@ entries:
     version: 0.1.18
   - apiVersion: v2
     appVersion: 7.6.1
-    created: "2021-03-19T10:06:55.549271096+09:00"
+    created: "2021-03-19T15:03:00.786376164+09:00"
     description: A Helm chart for QueryPie
     digest: 177b700a79b2c303a661e735cda34bce4804a526ff9b98b2ed8ae4a5b507865b
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -91,7 +91,7 @@ entries:
     version: 0.1.17
   - apiVersion: v2
     appVersion: 7.6.1
-    created: "2021-03-19T10:06:55.548960848+09:00"
+    created: "2021-03-19T15:03:00.785966342+09:00"
     description: A Helm chart for QueryPie
     digest: 8a120c5ad1bec99e1cc4b87a19a5686cd3aae884a70f90edbb32e574a9cd733b
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -102,7 +102,7 @@ entries:
     version: 0.1.16
   - apiVersion: v2
     appVersion: 7.6.1
-    created: "2021-03-19T10:06:55.548656494+09:00"
+    created: "2021-03-19T15:03:00.785583664+09:00"
     description: A Helm chart for QueryPie
     digest: 738c293724acd1322a844375bf10bd3faef65e90149b298abeac2d58d7a775b2
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -113,7 +113,7 @@ entries:
     version: 0.1.15
   - apiVersion: v2
     appVersion: 7.6.0
-    created: "2021-03-19T10:06:55.548354794+09:00"
+    created: "2021-03-19T15:03:00.7851971+09:00"
     description: A Helm chart for QueryPie
     digest: fa88e3e187d039409c8699d18ed605afee461449b571d0aaf03099719e94484e
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -124,7 +124,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 7.5.0
-    created: "2021-03-19T10:06:55.548005749+09:00"
+    created: "2021-03-19T15:03:00.784817632+09:00"
     description: A Helm chart for QueryPie
     digest: f3ecbe8ae6c4b0b5278aaedd7473e764bdf2c3b41a46d0a8f621cb85125262bb
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -135,7 +135,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 7.4.0
-    created: "2021-03-19T10:06:55.547546663+09:00"
+    created: "2021-03-19T15:03:00.784454498+09:00"
     description: A Helm chart for QueryPie
     digest: 6da271740a32bde14a92c0ac30a79475fca40f8cdefef691cd3c52e197ad5427
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -146,7 +146,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 7.1.0
-    created: "2021-03-19T10:06:55.547077424+09:00"
+    created: "2021-03-19T15:03:00.784063277+09:00"
     description: A Helm chart for QueryPie
     digest: 4c0d2f7879c51116871e24fc199ab9106aff80bdfd4cbe8db9d4719dc1b37552
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -157,7 +157,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2021-03-19T10:06:55.553141242+09:00"
+    created: "2021-03-19T15:03:00.791079546+09:00"
     description: A Helm chart for QueryPie
     digest: 7d4039a91c5c74503946a32c14abfe9298fc1f42482afd562a1294b79116aa20
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -168,7 +168,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2021-03-19T10:06:55.552914484+09:00"
+    created: "2021-03-19T15:03:00.790727531+09:00"
     description: A Helm chart for QueryPie
     digest: 4465dd3216f62f93e5df4dd3ca0aa35779d263cbf99b90cd94876d5ad3cffe15
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -179,7 +179,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2021-03-19T10:06:55.550132666+09:00"
+    created: "2021-03-19T15:03:00.787560793+09:00"
     description: A Helm chart for QueryPie
     digest: a894c501bd474851b1f6a7b11f0b777e6475d046da4b964a30b4a7e5302cd242
     icon: https://www.querypie.com/_next/static/images/querypie-b2c8d074997654073661a5fb0c82e45d.svg
@@ -190,7 +190,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2021-03-19T10:06:55.546678147+09:00"
+    created: "2021-03-19T15:03:00.783727263+09:00"
     description: A Helm chart for QueryPie
     digest: 387a6e00d2802d2c86f2ba1e20758b031223955d0e1f81d43a41328756df052d
     name: querypie
@@ -198,4 +198,4 @@ entries:
     urls:
     - https://chequer-io.github.io/querypie-deployment/helm-chart/querypie-0.1.1.tgz
     version: 0.1.1
-generated: "2021-03-19T10:06:55.546177545+09:00"
+generated: "2021-03-19T15:03:00.783363621+09:00"

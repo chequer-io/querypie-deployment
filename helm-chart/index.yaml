@@ -3,6 +3,18 @@ entries:
   querypie:
   - apiVersion: v2
     appVersion: 10.1.0
+    created: "2024-10-11T16:03:37.554953+09:00"
+    description: A Helm chart for QueryPie
+    digest: 89c793fbf0d9817c345e9ae907e725d58d5bc78e13fc4ccbde297220d3fccfbb
+    home: https://www.querypie.com/
+    kubeVersion: ^1.25.0-0
+    name: querypie
+    type: application
+    urls:
+      - querypie-1.3.1.tgz
+    version: 1.3.1
+  - apiVersion: v2
+    appVersion: 10.1.0
     created: "2024-09-12T17:56:32.270209+09:00"
     description: A Helm chart for QueryPie
     digest: c8505a29bdba84aba7152a3e1414038d76ca1d35b60d52415134362f92b25ba6

@@ -16,6 +16,7 @@ querypie                   	https://chequer-io.github.io/querypie-deployment/hel
 
 $ helm search repo querypie -l
 NAME            	CHART VERSION	APP VERSION	DESCRIPTION
+querypie/querypie	1.4.1       	11.1.0     	A Helm chart for QueryPie
 querypie/querypie	1.4.0       	11.0.0     	A Helm chart for QueryPie
 querypie/querypie	1.3.9        	10.3.0     	A Helm chart for QueryPie
 querypie/querypie	1.3.8        	10.2.8     	A Helm chart for QueryPie

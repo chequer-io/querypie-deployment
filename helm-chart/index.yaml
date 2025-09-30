@@ -2,8 +2,20 @@ apiVersion: v1
 entries:
   querypie:
   - apiVersion: v2
+    appVersion: 11.3.0
+    created: "2025-09-30T16:27:42.653907+09:00"
+    description: A Helm chart for QueryPie
+    digest: 66f51612c35f4be0b8059c9f1b4fe4f96b6af32e46d39b8cd5dc5438d8c23436
+    home: https://www.querypie.com/
+    kubeVersion: ^1.25.0-0
+    name: querypie
+    type: application
+    urls:
+    - querypie-1.4.3.tgz
+    version: 1.4.3
+  - apiVersion: v2
     appVersion: 11.2.0
-    created: "2025-08-28T16:35:09.390833+09:00"
+    created: "2025-09-30T16:27:42.652471+09:00"
     description: A Helm chart for QueryPie
     digest: 6ded85ae8980edccf34d561cf6517780e75d12a3b63ec6cb56c9e073569a5071
     home: https://www.querypie.com/
@@ -15,7 +27,7 @@ entries:
     version: 1.4.2
   - apiVersion: v2
     appVersion: 11.1.0
-    created: "2025-08-28T16:35:09.389431+09:00"
+    created: "2025-09-30T16:27:42.651029+09:00"
     description: A Helm chart for QueryPie
     digest: 96e55a19f19cb5e5f4e0fb44926f63ac5b315f471717f37814a145c772a2cfc2
     home: https://www.querypie.com/
@@ -27,7 +39,7 @@ entries:
     version: 1.4.1
   - apiVersion: v2
     appVersion: 11.0.0
-    created: "2025-08-28T16:35:09.388134+09:00"
+    created: "2025-09-30T16:27:42.649671+09:00"
     description: A Helm chart for QueryPie
     digest: f4e699d8a0813c3c7af8bb664e9126fb9d66dde688377127547f34ed75bd1fbd
     home: https://www.querypie.com/
@@ -39,7 +51,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 10.3.0
-    created: "2025-08-28T16:35:09.386919+09:00"
+    created: "2025-09-30T16:27:42.647759+09:00"
     description: A Helm chart for QueryPie
     digest: b0194e3eaa2a115786a1dd742db2a9f3a7e6a5cb9d5137982260444fac919858
     home: https://www.querypie.com/
@@ -51,7 +63,7 @@ entries:
     version: 1.3.9
   - apiVersion: v2
     appVersion: 10.2.8
-    created: "2025-08-28T16:35:09.385624+09:00"
+    created: "2025-09-30T16:27:42.646271+09:00"
     description: A Helm chart for QueryPie
     digest: f64967e2a1f1d8484582b950f87548360fb24d502a6096e50f27f03b00619945
     home: https://www.querypie.com/
@@ -63,7 +75,7 @@ entries:
     version: 1.3.8
   - apiVersion: v2
     appVersion: 10.2.2
-    created: "2025-08-28T16:35:09.383958+09:00"
+    created: "2025-09-30T16:27:42.644933+09:00"
     description: A Helm chart for QueryPie
     digest: 1c8b19942cbfa946fd532641a620eccfee3939112dcc639a6ae6523b517d7fb2
     home: https://www.querypie.com/
@@ -75,7 +87,7 @@ entries:
     version: 1.3.7
   - apiVersion: v2
     appVersion: 10.2.2
-    created: "2025-08-28T16:35:09.382739+09:00"
+    created: "2025-09-30T16:27:42.643186+09:00"
     description: A Helm chart for QueryPie
     digest: 0fc654006c79a7ede3de55582708b581559f3b98ff3d27b96c141b30e7d8b8f5
     home: https://www.querypie.com/
@@ -87,7 +99,7 @@ entries:
     version: 1.3.6
   - apiVersion: v2
     appVersion: 10.2.2
-    created: "2025-08-28T16:35:09.381483+09:00"
+    created: "2025-09-30T16:27:42.64121+09:00"
     description: A Helm chart for QueryPie
     digest: e3153c35ef420efad8d394730ef7ff008aa0c29df5f15376a716721a686ccb40
     home: https://www.querypie.com/
@@ -99,7 +111,7 @@ entries:
     version: 1.3.5
   - apiVersion: v2
     appVersion: 10.2.1
-    created: "2025-08-28T16:35:09.38025+09:00"
+    created: "2025-09-30T16:27:42.639865+09:00"
     description: A Helm chart for QueryPie
     digest: 912e4707f965fd9a09a154e2b209b7c04bb482cb29162982011353fd4584bafb
     home: https://www.querypie.com/
@@ -111,7 +123,7 @@ entries:
     version: 1.3.4
   - apiVersion: v2
     appVersion: 10.2.0
-    created: "2025-08-28T16:35:09.378658+09:00"
+    created: "2025-09-30T16:27:42.63862+09:00"
     description: A Helm chart for QueryPie
     digest: b59189324cd6c1d891eeeee3b7e5b39902f06ccfb3676cf1d6c4b6a9a92fb94e
     home: https://www.querypie.com/
@@ -123,7 +135,7 @@ entries:
     version: 1.3.3
   - apiVersion: v2
     appVersion: 10.1.0
-    created: "2025-08-28T16:35:09.377548+09:00"
+    created: "2025-09-30T16:27:42.637452+09:00"
     description: A Helm chart for QueryPie
     digest: 23bde38645ca307873dabf33eb4ccf227fb5ad1cd60c58cc2f0995fd4baef264
     home: https://www.querypie.com/
@@ -135,7 +147,7 @@ entries:
     version: 1.3.2
   - apiVersion: v2
     appVersion: 10.1.0
-    created: "2025-08-28T16:35:09.37654+09:00"
+    created: "2025-09-30T16:27:42.63628+09:00"
     description: A Helm chart for QueryPie
     digest: 89c793fbf0d9817c345e9ae907e725d58d5bc78e13fc4ccbde297220d3fccfbb
     home: https://www.querypie.com/
@@ -147,7 +159,7 @@ entries:
     version: 1.3.1
   - apiVersion: v2
     appVersion: 10.1.0
-    created: "2025-08-28T16:35:09.375632+09:00"
+    created: "2025-09-30T16:27:42.634242+09:00"
     description: A Helm chart for QueryPie
     digest: c8505a29bdba84aba7152a3e1414038d76ca1d35b60d52415134362f92b25ba6
     home: https://www.querypie.com/
@@ -159,7 +171,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 9.20.0
-    created: "2025-08-28T16:35:09.374955+09:00"
+    created: "2025-09-30T16:27:42.633529+09:00"
     description: A Helm chart for QueryPie
     digest: 7abba320accfd1d1ad19d7048e2552685ae3c80ec3b011beabe214fb34f645e7
     home: https://www.querypie.com/
@@ -171,7 +183,7 @@ entries:
     version: 1.2.1
   - apiVersion: v2
     appVersion: 9.20.0
-    created: "2025-08-28T16:35:09.374343+09:00"
+    created: "2025-09-30T16:27:42.632755+09:00"
     description: A Helm chart for QueryPie
     digest: 43832c722d6bd8b550a614211577bd0ee904d54813bd87337b6dc8e63b3d4d0b
     home: https://www.querypie.com/
@@ -183,7 +195,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 9.18.0
-    created: "2025-08-28T16:35:09.373654+09:00"
+    created: "2025-09-30T16:27:42.631934+09:00"
     description: A Helm chart for QueryPie
     digest: d45582674456ccbe5633405e5bd2b55411576f6f60ad316892829ded122e8cfc
     home: https://www.querypie.com/
@@ -195,7 +207,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 9.17.0
-    created: "2025-08-28T16:35:09.371088+09:00"
+    created: "2025-09-30T16:27:42.631137+09:00"
     description: A Helm chart for QueryPie
     digest: 81e2f524ab57e955700d46ba64bca697c35182c1aa2bf1b6cd3cba66781b3734
     home: https://www.querypie.com/
@@ -205,4 +217,4 @@ entries:
     urls:
     - querypie-1.0.0.tgz
     version: 1.0.0
-generated: "2025-08-28T16:35:09.370175+09:00"
+generated: "2025-09-30T16:27:42.630254+09:00"

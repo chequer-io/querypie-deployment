@@ -38,9 +38,8 @@ QueryPie Helm 레포지토리는 다음과 같이 추가할 수 있습니다:
 $ helm repo add querypie https://chequer-io.github.io/querypie-deployment/helm-chart
 "querypie" has been added to your repositories
 
-$ helm repo list
-NAME                       	URL    
-querypie                   	https://chequer-io.github.io/querypie-deployment/helm-chart
+$ helm repo update
+...Successfully got an update from the "querypie" chart repository
 
 $ helm search repo querypie -l
 NAME            	CHART VERSION	APP VERSION	DESCRIPTION

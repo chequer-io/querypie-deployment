@@ -55,4 +55,3 @@ querypie/querypie	1.4.0       	11.0.0     	A Helm chart for QueryPie
 ## Helm Chart Source
 
 The Helm chart source code is maintained at https://github.com/chequer-io/querypie-mono/tree/develop/deploy/helm/querypie
-

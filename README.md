@@ -43,6 +43,7 @@ $ helm repo update
 
 $ helm search repo querypie -l
 NAME            	CHART VERSION	APP VERSION	DESCRIPTION
+querypie/querypie	1.5.1       	11.5.6     	A Helm chart for QueryPie
 querypie/querypie	1.5.0       	11.5.1     	A Helm chart for QueryPie
 querypie/querypie	1.4.4       	11.5.0     	A Helm chart for QueryPie
 querypie/querypie	1.4.3       	11.3.0     	A Helm chart for QueryPie
